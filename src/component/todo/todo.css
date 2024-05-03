@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(21, 133, 133);
+    margin: 0;
+}
+.todo-container{
+  
+    
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    
+
+}
+.todo-container h1{
+    color: rgb(74, 73, 73);
+   
+}
+.inputSection{
+ 
+    width: 100%;
+    border: 0 solid silver;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: rgb(92, 105, 105);
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.inputSection::placeholder{
+    color: rgb(92, 105, 105);
+}
+.inputBox{
+    padding: 20px;
+    background-color: rgb(146, 183, 183);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(34, 71, 68) 0px 5px 15px;
+}
+
+ul li{
+    list-style: none;
+    background-color: rgb(146, 183, 183);
+    font-weight: bolder;
+    padding: 15px;
+    color: rgb(91, 85, 85);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    box-shadow: rgb(34, 71, 68) 0px 5px 15px;
+    text-align:left ;
+    display: flex;
+    ;
+
+
+
+
+}
+ul li i{
+    text-align: right;
+    flex: 1;
+    align-items: center;
+    cursor: pointer;
+}
+ul li i:hover{
+    color: rgb(75, 71, 71);
+}
